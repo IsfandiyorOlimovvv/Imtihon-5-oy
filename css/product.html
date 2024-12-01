@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./product.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="navbar">
+            <a href="../index/index.html" class="nav-link">Logo</a>
+            <a href="../css/product.html" class="nav-link">Products</a>
+            <a href="../page/category.html" class="nav-link">Category</a>
+            <a href="../kundalik/profile.html" class="nav-link">Profile</a>
+            <a href="../bet/favourite.html" class="nav-link">Favourites</a>
+        </div>
+    </header>
+    <section class="container">
+        <input type="search" class="search-box" placeholder="Search products">
+        <h1 class="products-title">Products List</h1>
+        <div id="products" class="products">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Product Name" class="product-img">
+                <h3 class="product-name">Product Name</h3>
+                <p class="product-info">Product description goes here.</p>
+                <p class="product-price"><strong>Price:</strong> $99</p>
+            </div>
+        </div>
+    </section>
+      <div id="productModal" class="modal hidden">
+        <div class="modal-content">
+          <h2 class="modal-title">Add New Product</h2>
+          <form id="productForm">
+            <input type="text" id="productName" placeholder="Product Name" class="input-field" required>
+            <input type="text" id="productInfo" placeholder="Product Info" class="input-field" required>
+            <input type="number" id="productPrice" placeholder="Product Price" class="input-field" required>
+            <input type="text" id="imageUrl" placeholder="Image URL" class="input-field" required>
+            <div class="modal-actions">
+              <button type="button" id="cancelButton" class="cancel-button">Cancel</button>
+              <button type="submit" class="add-button">Add Product</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    <script src="./product.js"></script>
+</body>
+</html>
