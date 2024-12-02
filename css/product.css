@@ -172,6 +172,11 @@
 .cancel-btn:hover {
     background-color: #c82333;
 } 
-  
+#product-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
 
 

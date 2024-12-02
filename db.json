@@ -5,7 +5,7 @@
         "name": "Product 1",
         "info": "this product is fully available",
         "price": 19.99,
-        "liked": true,
+        "liked": false,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlndpwDalSNF8TzBG6T7kGv73l0IOReNJpKw&s"
       },
       {
@@ -52,24 +52,16 @@
     "categories": [
       {
         "id": "2",
-        "name": "gfcgvbhnj"
+        "name": "Clothing"
       },
       {
         "id": "3",
-        "name": "fcvgbhn"
+        "name": "Books"
       },
       {
         "id": "7c11",
-        "name": "gfdwsedfgvbhnj"
-      },
-      {
-        "id": "6adb",
-        "name": "sdfghj"
+        "name": "technology"
       }
     ],
     "likeds": []
   }
-
-
-
-
